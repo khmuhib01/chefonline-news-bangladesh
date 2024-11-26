@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "news_bangladesh",
+    "name": "News Bangladesh",
     "slug": "news_bangladesh",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.khmuhib.news_bangladesh"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6bda9c71-711e-4682-8b84-6a537799d4d9"
+      }
     }
   }
 }
